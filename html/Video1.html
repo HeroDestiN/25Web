@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Interest</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/mystyle.css">
+    </head>
+    <style>
+      h3 {
+        color: #cfcfcf;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      .column {
+        flex: 50%;
+        max-width: 50%;
+        padding: 0 4px;
+      }
+      .footer {
+        flex: 100%;
+        padding: 20px;
+        text-align: center;
+        background: #303030;
+        border: 1px solid #121212;
+      }
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+    <body>
+        <div class="header">
+            <h1>HeroDestiN's Website</h1>
+        </div>
+        <ul>
+          <li><a href="https://herodestin.github.io/25Web/">Home</a></li>
+          <li><a href="https://github.com/HeroDestiN/25web">GitHub</a></li>
+          <li><a href="Introduce.html">Introduce</a></li>
+          <li><a href="Interest.html">Pictures</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Videos</a>
+                <div class="dropdown-content">
+                  <a href="Video1.html">Vitamins</a>
+                  <a href="Video2.html">Helpful</a>
+                </div>
+              </li>
+              <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+              <div class="dropdown-content">
+                <a href="https://www.google.com/">Google</a>
+                <a href="https://www.youtube.com/">Youtube</a>
+                <a href="https://discord.com/">Discord</a>
+              </div>
+            </li>
+        </ul>
+            <h3 style="text-align:center">프로그래밍 관련 재밌는 사실들이나, 그 당시 야생(?)과 같았던 옛날 시절의 이모저모!</h3>
+            <div class="row">
+                <div class="column">
+                <iframe width="100%" height="450" src="https://www.youtube.com/embed/5ZXOV1ma35g?si=CbLSjUK1XdY22ECA"></iframe>
+                <iframe width="100%" height="450" src="https://www.youtube.com/embed/IYAHieM4iZE?si=DWDER288e3DW7PJU"></iframe>
+            </div>
+            <div class="column">
+                <iframe width="100%" height="450" src="https://www.youtube.com/embed/8dFDRWCQ3Hs?si=4zQkGolgf3YTSz-m"></iframe>
+                <iframe width="100%" height="450" src="https://www.youtube.com/embed/DRjRI-Z4028?si=5CHf_xuv6ybxzvVO"></iframe>
+            </div>
+            </div>
+          <div class="footer">
+            <a>Made by HeroDestiN, in 06/06/2025</a>
+          </div>
+        </div>
+    </body>
+</html>
